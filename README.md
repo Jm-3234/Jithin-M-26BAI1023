@@ -35,31 +35,31 @@ The raw data is intentionally messy: roughly 5% missing values in every column, 
 ## Results
 
 ### 1. Price vs. Distance
-![Price vs Distance](screenshots/01_price_vs_distance.png)
+![Price vs Distance]
 Price rises with distance up to ~2,000 km, then flattens into a hard ceiling around ₹2,00,000 regardless of how much farther the flight goes — suggesting the dataset caps or bands prices at long range rather than scaling them linearly forever.
 
 ### 2. Average Price by Airline
-![Avg Price by Airline](screenshots/02_avg_price_by_airline.png)
+![Avg Price by Airline]
 Average price varies noticeably by airline once naming inconsistencies are merged.
 
 ### 3. Price by Number of Stops
-![Price by Stops](screenshots/03_price_by_stops.png)
+![Price by Stops]
 Median and mean price both increase with the number of stops. The mean is consistently pulled above the median by high-price outliers, and that gap narrows as stops increase.
 
 ### 4. Median Price vs. Days Before Departure
-![Price vs Days Before Departure](screenshots/04_price_vs_days_before_departure.png)
+![Price vs Days Before Departure]
 Prices are highest for last-minute bookings and drop as the booking is made further in advance, leveling off after roughly 50 days out.
 
 ### 5. Median Price by Booking Channel
-![Price by Booking Channel](screenshots/05_price_by_booking_channel.png)
+![Price by Booking Channel]
 Booking channel makes only a small difference overall; the website tends to show slightly lower prices than other channels.
 
 ### 6. Median Price by Distance Category
-![Price by Distance Category](screenshots/06_price_by_distance_category.png)
+![Price by Distance Category]
 Grouping routes into short/medium/long/ultra-long-haul bands makes the distance effect from chart 1 clearer and easier to compare at a glance.
 
 ### 7. Median Price by Travel Class
-![Price by Travel Class](screenshots/07_price_by_travel_class.png)
+![Price by Travel Class]
 Travel class shows the largest gap of any factor plotted: median price is roughly ₹39,800 for Economy, ₹61,300 for Premium Economy, ₹116,400 for Business, and ₹183,800 for First — about a 4.6x spread from Economy to First.
 
 ## Challenges Faced
